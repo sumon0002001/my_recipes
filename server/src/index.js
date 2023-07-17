@@ -11,7 +11,7 @@ app.use(cors());
 
 app.use('/auth', userRouter)
 
-mongoose.connect("mongodb+srv://sumon0002001:Dhaka123456@recipes.wdqtwxu.mongodb.net/recipes?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://sumon0002001:qHgl4X7erh4GSGtq@sumon.oquctql.mongodb.net/recipes")
 
 app.listen(4000, () => {
      console.log("server is running on PORT 4000");
